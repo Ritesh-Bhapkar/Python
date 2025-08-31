@@ -1,11 +1,10 @@
-// Using Git Stash I can hold story 121 on hold and then i can get back story 121 using Git stash Apply
-x=1
-y=2
-z=x+y
+import os
 
-//a=1
-b=2
-c=3
+def list_files(path):
+    for root, dirs, files in os.walk(path):   # os.walk goes through all subfolders
+        for file in files:
+            print(file)   # only prints filename, not full path
 
-
-working on story 131
+# Example usage
+path = r"C:\Users\YourName\Documents"   # replace with your folder path
+list_files(path)
