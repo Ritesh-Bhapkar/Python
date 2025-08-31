@@ -1,3 +1,11 @@
-This is f1.txt file
+import os
 
-//new changes added
+def list_text_files(path):
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith(".txt"):   # only text files
+                print(file)
+
+# Example usage
+path = r"C:\Users\YourName\Documents"   # replace with your folder path
+list_text_files(path)
