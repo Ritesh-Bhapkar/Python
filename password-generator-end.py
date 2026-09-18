@@ -40,7 +40,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     # print(password1)
 
 ## Hard Way ##
-print("Welcome to PyPassword Generator!")
+print("Welcome to PyPasswords Generator!")
 letters1=int(input("How many letters would you like in your password?\n "))
 symbols1=int(input("How many symbols would you like?\n"))
 numbers1=int(input("How many numbers would you like?\n "))
