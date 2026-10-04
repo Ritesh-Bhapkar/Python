@@ -10,7 +10,7 @@ elif bmi < 25:
     print(f"{bmi} - Normal weight")
 elif bmi < 30:
     print(f"{bmi} - Overweight")
-elif bmi < 35:
+elif bmi < 45:
     print(f"{bmi} - Obese")
 else:
     print(f"{bmi} - Clinically obese")
